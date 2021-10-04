@@ -25,7 +25,7 @@ public class Player : MonoBehaviour
     public TMP_Text SPSText;
     public TMP_Text numShotsText;
     public TMP_Text coinsText;
-    [SerializeField] private float shotDamage = 10;
+    [SerializeField] private float shotDamage = 20;
 
     private float health = 100;
     private float maxHealth = 100;
@@ -47,7 +47,7 @@ public class Player : MonoBehaviour
         Debug.Log("ShipHit");
         if (collision.collider.gameObject.CompareTag("Enemy"))
         {
-            DamageShip(10f);
+            DamageShip(25f);
         }
     }
 

@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Gobstrosity : MonoBehaviour
 {
-    [SerializeField] private float health = 100;
+    [SerializeField] private float health = 300;
     [SerializeField] private MoveDown md;
     [SerializeField] private float yMin = 3.5f;
     [SerializeField] private float yMax = 4.0f;
     [SerializeField] private float xMin = -1.9f;
     [SerializeField] private float xMax = 1.9f;
-    [SerializeField] private float speed = 5.5f;
+    [SerializeField] private float speed = 2.5f;
     [SerializeField] private Transform shooter;
     [SerializeField] private GameObject _shotPrefab;
     [SerializeField] private float shotDamage = 1;
@@ -59,8 +59,8 @@ public class Gobstrosity : MonoBehaviour
     private void Shoot()
     {
         Instantiate(_shotPrefab, shooter.position, Quaternion.AngleAxis(180, transform.forward));
-        Instantiate(_shotPrefab, shooter.position, Quaternion.AngleAxis(165, transform.forward));
-        Instantiate(_shotPrefab, shooter.position, Quaternion.AngleAxis(195, transform.forward));
+        Instantiate(_shotPrefab, shooter.position, Quaternion.AngleAxis(160, transform.forward));
+        Instantiate(_shotPrefab, shooter.position, Quaternion.AngleAxis(200, transform.forward));
     }
 
     void GobBobNWeave()
@@ -70,17 +70,16 @@ public class Gobstrosity : MonoBehaviour
 
     IEnumerator GobAttack()
     {
-        float timeToAttack = Random.Range(3, 7);
-        bool attacking = true;
+        float timeToAttack = Random.Range(1, 2);
 
         while (health>0)
         {
             yield return new WaitForSeconds(timeToAttack);
             animator.SetBool("fire",true);
-            yield return new WaitForSeconds(1.2f);
+            yield return new WaitForSeconds(1.1f);
             animator.SetBool("fire", false);
             Shoot();
-            timeToAttack = Random.Range(3, 7);
+            timeToAttack = Random.Range(0.4f, 0.5f);
         }
 
         //start coroutine for charge and shoot

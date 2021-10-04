@@ -586,11 +586,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits
+      value: James
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
-      value: "lead composer\nsound design\nproject implentation\n- \njames mcdonough"
+      value: "original compositions, sound design, and development\n- \njames mcdonough"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.x
+      value: 2.4763799
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.z
+      value: 2.6623447
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068327, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Pivot.x
@@ -889,11 +897,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits (2)
+      value: AME
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
-      value: "lead writer\ncreative consultant\n- \nA.R.E."
+      value: "Creative Direction, Writing, and Character Design\n- \nAME"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.x
+      value: 2.7492552
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.z
+      value: 2.835044
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068327, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Pivot.x
@@ -1452,11 +1468,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits (1)
+      value: Reeeg
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
-      value: "concept lead\nsprite art\nbackground art\n- \nReeg miller"
+      value: "original concept, game design, development, and 2d art assets\n- \nReeeg"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.w
+      value: 8.483943
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.x
+      value: 2.9244578
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.z
+      value: 3.1769278
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068327, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Pivot.x
@@ -2538,12 +2566,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits (3)
+      value: Hen
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
-      value: "sprite art\nquality assurance\nplaytesting\njunior developer\n- \nhenry
-        miller"
+      value: "playtesting, quality assurance, 2d art assets, and development assistance\n-
+        \nhenry miller"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.w
+      value: 8.300315
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.x
+      value: 3.0834403
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.z
+      value: 3.1769269
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068327, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Pivot.x
@@ -3368,7 +3408,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits (4)
+      value: Thanks For Playing
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
@@ -3673,7 +3713,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 31.919998, y: -159.20001}
+  m_AnchoredPosition: {x: 31.919983, y: -159.20001}
   m_SizeDelta: {x: -265.8467, y: -408.12}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1560640469
@@ -4659,7 +4699,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Credits (5)
+      value: Title
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_text
@@ -5210,7 +5250,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3562467180763068312, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Name
-      value: Text (TMP)
+      value: Will
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.x
+      value: 2.6692908
+      objectReference: {fileID: 0}
+    - target: {fileID: 3562467180763068324, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
+      propertyPath: m_margin.z
+      value: 3.0468926
       objectReference: {fileID: 0}
     - target: {fileID: 3562467180763068327, guid: 76fbba7625408b44ca32721384faeb0a, type: 3}
       propertyPath: m_Pivot.x

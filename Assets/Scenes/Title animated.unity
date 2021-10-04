@@ -234,6 +234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203622929}
   - component: {fileID: 203622928}
+  - component: {fileID: 203622930}
   m_Layer: 0
   m_Name: SceneLoader
   m_TagString: Untagged
@@ -268,6 +269,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203622930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 203622927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c219406cf414f7a47add0c4a64a05a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &603762876
 GameObject:
   m_ObjectHideFlags: 0
@@ -622,8 +635,20 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Arrow Keys\nOr WASD: Move\n\nSpace: Shoot\n\n'1' & '2': Buy Upgrades\n
-    or Downgrades\n"
+  m_text: 'Arrow Keys
+
+    Or WASD: Move
+
+
+    Space: Shoot
+
+
+    ''1'' & ''2'':
+    Buy Upgrades
+
+    or Downgrades
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ca067c629878a9f4780d9f4c47c85af6, type: 2}
   m_sharedMaterial: {fileID: 1987543535655408844, guid: ca067c629878a9f4780d9f4c47c85af6, type: 2}
