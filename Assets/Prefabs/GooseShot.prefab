@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1992288211111366876}
   - component: {fileID: 8706111404360332990}
   - component: {fileID: -1275610781254648800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: GooseShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

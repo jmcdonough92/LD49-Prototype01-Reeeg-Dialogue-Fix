@@ -9,9 +9,57 @@ EditorBuildSettings:
     path: Assets/Scenes/Title animated.unity
     guid: 3131e5dc5289d1e41959db26b60d525b
   - enabled: 1
-    path: Assets/Scenes/Combat.unity
-    guid: 4389ac880a435984d82c20d9e5d246c2
+    path: Assets/Scenes/Opening_A.unity
+    guid: 6b9aa56a57ba14f43832de81d8477919
+  - enabled: 1
+    path: Assets/Scenes/Stage 01.unity
+    guid: b40a9d7b92efec444be1c4f950c634a8
+  - enabled: 1
+    path: Assets/Scenes/Gov_A.unity
+    guid: 0555a871d0e90b84f82db5b4b5356dff
+  - enabled: 1
+    path: Assets/Scenes/Stage 02.unity
+    guid: 2acc2f5316654434682d5d72cf4ae9bb
+  - enabled: 1
+    path: Assets/Scenes/Gov_B.unity
+    guid: c469c3bacbd50964d90ae1824bd0357f
+  - enabled: 1
+    path: Assets/Scenes/Later_That_Night_Pt_2.unity
+    guid: 7d635873e4156db40a7a114278349a58
   - enabled: 1
     path: Assets/Scenes/Engineer_A.unity
     guid: 20c812a682c229f4bb8aee56bd76cb5a
+  - enabled: 1
+    path: Assets/Scenes/Stage 03.unity
+    guid: 4e77d30b84e012740a62a0d28787fef1
+  - enabled: 1
+    path: Assets/Scenes/Engineer_B.unity
+    guid: 768e73675c6e0c8468ae56873e3d31f9
+  - enabled: 1
+    path: Assets/Scenes/Later_That_Night_Pt_1.unity
+    guid: 2ff7943bd35707646969ab0dca831330
+  - enabled: 1
+    path: Assets/Scenes/Merchant_A.unity
+    guid: 50505b78b083d0b4aba3394e1da85503
+  - enabled: 1
+    path: Assets/Scenes/Stage 04.unity
+    guid: d8d8ac93db9ea5645979abb3b3510972
+  - enabled: 1
+    path: Assets/Scenes/Merchant_B.unity
+    guid: 33565b1ef2fc9e24a8a4722095c7c1fa
+  - enabled: 1
+    path: Assets/Scenes/Later_That_Night_Pt_3.unity
+    guid: df416c210274fcd42b34d4df25416f94
+  - enabled: 1
+    path: Assets/Scenes/Magus_A.unity
+    guid: ea7f4690704896647aca9b3e1ae94541
+  - enabled: 1
+    path: Assets/Scenes/Stage 05.unity
+    guid: a87a260b144b9ed40813c3f7865e33c1
+  - enabled: 1
+    path: Assets/Scenes/Magus_B.unity
+    guid: 6dcb8911d6b8bb242bc15f9b3e5b414d
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: c4cd829d21e91924cb1728081f253530
   m_configObjects: {}

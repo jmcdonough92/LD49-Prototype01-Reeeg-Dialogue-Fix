@@ -7,6 +7,8 @@ using TMPro;
 
 public class Player : MonoBehaviour
 {
+    [SerializeField] private bool canDie = true;
+    [SerializeField] private SceneLoader sceneLoader;
     [SerializeField] private float _speed = 5.0f;
     [SerializeField] private float _shotRate = 1;
     [SerializeField] private float _shotsPerSecond = 3;
@@ -72,6 +74,7 @@ public class Player : MonoBehaviour
 
     private void Lose()
     {
+        if (canDie) sceneLoader.PlayerDeathLoadScene();
         Debug.Log("YOU LOSE");
     }
 
@@ -80,11 +83,19 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.left * _speed * Time.deltaTime;
+            if (transform.position.x >= -2.4f) transform.position += Vector3.left * _speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.right * _speed * Time.deltaTime;
+            if (transform.position.x <= 2.4f) transform.position += Vector3.right * _speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+        {
+            if (transform.position.y <= 4.5f) transform.position += Vector3.up * _speed * Time.deltaTime;
+        }
+        if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
+        {
+            if (transform.position.y >= -2f) transform.position += Vector3.down * _speed * Time.deltaTime;
         }
         if (Input.GetKey(KeyCode.Space))
         {

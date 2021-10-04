@@ -15,9 +15,9 @@ TagManager:
   - UI
   - Coin
   - Enemy
-  - 
-  - 
-  - 
+  - Player
+  - EnemyShot
+  - PlayerShot
   - 
   - 
   - 

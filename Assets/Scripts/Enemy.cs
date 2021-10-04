@@ -5,6 +5,8 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] float _yMin = -6;
+    [SerializeField] float health = 3;
+    [SerializeField] GameObject coinPrefab;
     private SoundEffects se;
 
     // Start is called before the first frame update
@@ -12,6 +14,11 @@ public class Enemy : MonoBehaviour
     {
         se = FindObjectOfType<SoundEffects>();
         StartCoroutine("CheckDespawn");
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        DamageEnemy(5.0f);
     }
 
     private void OnTriggerEnter2D(Collider2D collider)
@@ -22,9 +29,21 @@ public class Enemy : MonoBehaviour
         Destroy(collider.gameObject);
     }
 
+    private void DamageEnemy(float dmg)
+    {
+        health -= dmg;
+        if (health <= 0) Destroy(gameObject);
+    }
+
     private void DamageEnemy()
     {
-        Destroy(gameObject);
+        health--;
+        if (health <= 0) Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        if (Random.Range(0.0f, 1.0f) > 0.5f) Instantiate(coinPrefab, transform.position, Quaternion.identity);
     }
 
     IEnumerator CheckDespawn()
@@ -36,7 +55,7 @@ public class Enemy : MonoBehaviour
                 Destroy(gameObject);
             }
             yield return new WaitForSeconds(1);
-        
+
         }
     }
 }

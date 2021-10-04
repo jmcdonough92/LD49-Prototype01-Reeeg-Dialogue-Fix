@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 404728065880228387}
   - component: {fileID: 2028642721288912132}
   - component: {fileID: 2630578688400534999}
-  m_Layer: 0
+  - component: {fileID: 1382162431777048347}
+  m_Layer: 7
   m_Name: OrbusEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -32,6 +33,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children:
   - {fileID: 5813683125504702476}
+  - {fileID: 7247691635877711966}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -48,6 +50,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _yMin: -6
+  health: 50
+  coinPrefab: {fileID: 8342508818467859805, guid: 5a9af39b2ad50fe47bb3d1a1b706fc15, type: 3}
 --- !u!50 &404728065880228387
 Rigidbody2D:
   serializedVersion: 4
@@ -97,7 +101,26 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -0.01, y: 0.01}
   serializedVersion: 2
-  m_Radius: 0.32
+  m_Radius: 0.13
+--- !u!114 &1382162431777048347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5813683125377492732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc615c6909e390a49b312261bb9e0b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  yMin: 2.69
+  yMax: 4
+  xMin: -1.9
+  xMax: 1.9
+  speed: 2.94
+  md: {fileID: 2028642721288912132}
+  shooter: {fileID: 5688620766595775597}
 --- !u!1 &5813683125504702479
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,3 +223,47 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &7644745982951850713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7247691635877711966}
+  - component: {fileID: 5688620766595775597}
+  m_Layer: 7
+  m_Name: Shooter
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7247691635877711966
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644745982951850713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5813683125377492730}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5688620766595775597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7644745982951850713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebf653501ef08f446990cb9708c0631e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shot: {fileID: 1992288211111366867, guid: 967510f68dace2d49835afd757e623c3, type: 3}

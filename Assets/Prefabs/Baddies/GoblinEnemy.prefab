@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 404728065880228387}
   - component: {fileID: 5782183193836719456}
   - component: {fileID: 2028642721288912132}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: GoblinEnemy
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _yMin: -6
+  health: 1
+  coinPrefab: {fileID: 8342508818467859805, guid: 5a9af39b2ad50fe47bb3d1a1b706fc15, type: 3}
 --- !u!50 &404728065880228387
 Rigidbody2D:
   serializedVersion: 4

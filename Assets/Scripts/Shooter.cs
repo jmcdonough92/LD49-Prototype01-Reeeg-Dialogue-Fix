@@ -6,6 +6,17 @@ public class Shooter : MonoBehaviour
 {
     [SerializeField] private GameObject shot;
 
+    public void ShootDownPeriodic(int numShots, float period)
+    {
+
+    }
+
+    public void ShootDownPeriodicRandom(int numShots, float period, float from, float to)
+    {
+
+    }
+
+
     public void ShootUp(int numShots)
     {
         switch (numShots)

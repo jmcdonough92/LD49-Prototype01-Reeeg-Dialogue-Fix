@@ -5,10 +5,18 @@ using UnityEngine;
 public class LoadOnDestroy : MonoBehaviour
 {
     public SceneLoader sl;
+    public bool lastScene = false;
 
     private void OnDestroy()
     {
-        sl.LoadScene();
+        if (lastScene)
+        {
+            sl.LoadScene();
+        }
+        else
+        {
+            sl.LoadNextScene();
+        }
     }
 
 }
