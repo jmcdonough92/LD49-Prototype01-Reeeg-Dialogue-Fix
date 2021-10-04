@@ -1,0 +1,38 @@
+title: OSPT3
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+	Part 3
+    No one could fall asleep that night. As you all sat in your separate silences, you pondered if your parents really would have wanted you to chase such a dangerous beast.
+<<show CauliSad>>
+	Cauli: ……
+<<hide CauliSad>>
+<<show KaitAngry>>
+	Kait: ……
+<<hide KaitAngry>>
+	You can tell by the hard lines etched by Kait’s brow that she isn’t interested in speaking. You can tell by experience that she’s even less likely to change her mind right now.
+<<show GioNeutral>>
+	Gio: Can we really kill this thing?
+<<hide GioNeutral>>
+<<show KaitNeutral>>
+	Kait: We have to. A debt hungers, and must be satisfied.
+<<hide KaitNeutral>>
+<<show CauliSad>>
+	Cauli: But we hunger! We’re still here, and we’re alive.
+<<hide CauliSad>>
+<<show GioNeutral>>
+	Gio: We are hunters, Cauli. It’s what we were born to be. Not prey. Not hunted down and slaughtered in our beds like herd creatures.
+<<hide GioNeutral>>
+<<show CauliSad>>
+	Cauli: We’re people. Don’t we get the chance to be that too?
+<<hide CauliSad>>
+<<show GioSad>>
+	Gio: ....
+<<hide GioSad>>
+<<show KaitSad>>
+	Kait: .....
+    Kait: Maybe someday. For now, go to bed. 
+<<hide KaitSad>>
+===

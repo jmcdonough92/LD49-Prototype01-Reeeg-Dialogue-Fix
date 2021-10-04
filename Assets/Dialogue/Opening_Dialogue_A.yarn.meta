@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: b7e46243386640a47a5de9ee656e282a
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Opening_Dialogue_A-OSA-0
+  - Opening_Dialogue_A-OSA-1
+  - Opening_Dialogue_A-OSA-2
+  - Opening_Dialogue_A-OSA-3
+  - Opening_Dialogue_A-OSA-4
+  - Opening_Dialogue_A-OSA-5
+  - Opening_Dialogue_A-OSA-6
+  - Opening_Dialogue_A-OSA-7
+  - Opening_Dialogue_A-OSA-8
+  - Opening_Dialogue_A-OSA-9
+  - Opening_Dialogue_A-OSA-10
+  - Opening_Dialogue_A-OSA-11
+  - Opening_Dialogue_A-OSA-12
+  - Opening_Dialogue_A-OSA-13
+  - Opening_Dialogue_A-OSA-14
+  - Opening_Dialogue_A-OSA-15
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: b7e46243386640a47a5de9ee656e282a, type: 3}
+  localizations: []

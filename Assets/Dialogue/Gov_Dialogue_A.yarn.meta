@@ -1,0 +1,34 @@
+fileFormatVersion: 2
+guid: 331802069aaa879449c09aba10e301b4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Gov_Dialogue_A-GLA-0
+  - Gov_Dialogue_A-GLA-1
+  - Gov_Dialogue_A-GLA-2
+  - Gov_Dialogue_A-GLA-3
+  - Gov_Dialogue_A-GLA-4
+  - Gov_Dialogue_A-GLA-5
+  - Gov_Dialogue_A-GLA-6
+  - Gov_Dialogue_A-GLA-7
+  - Gov_Dialogue_A-GLA-8
+  - Gov_Dialogue_A-GLA-9
+  - Gov_Dialogue_A-GLA-10
+  - Gov_Dialogue_A-GLA-11
+  - Gov_Dialogue_A-GLA-12
+  - Gov_Dialogue_A-GLA-13
+  - Gov_Dialogue_A-GLA-14
+  - Gov_Dialogue_A-GLA-15
+  - Gov_Dialogue_A-GLA-16
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 331802069aaa879449c09aba10e301b4, type: 3}
+  localizations: []

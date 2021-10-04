@@ -1,0 +1,21 @@
+title: OSBPT2
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+   	Part 2
+    A thud in the middle of the night startles you out of a dream about multi-headed geese, and you hear conversation buzzing nearby.
+    <<show GioSurprised>>
+	Gio: Why are you still up Kait? It’s nearly morning.
+    <<hide GioSurprised>>
+	<<show KaitSad>>
+	Kait: I can sleep once we complete the hunt. Once mom and dad can rest, I will too.
+    <<hide KaitSad>>
+	<<show GioNeutral>>
+	Gio: Well, be quiet about it. The rest of us can still see the value in dreams.
+    <<hide GioNeutral>>
+	<<show KaitHappy>>
+	Kait: The only two I have left are in front of me. I’ll survive.
+    <<hide KaitHappy>>
+===

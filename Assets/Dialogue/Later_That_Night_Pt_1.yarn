@@ -1,0 +1,18 @@
+title: OSBPT1
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    Later that night...
+    Part 1
+    As you lie there, trying to sleep among the familiar creaking of the ship, you hear voices, raised briefly. 
+    <<show KaitAngry>>
+	<<hide Kaitangry>>
+	Kait: You have to take this more seriously, Gio.
+    <<hide KaitAngry>>
+	<<show GioAngry>>
+	Gio: Someone needs to remind her that it’s still ok to laugh. To feel things.
+    The voices fall, and you drift off to sleep, trying to remember the last time something was funny.
+    <<hide GioAngry>>
+===

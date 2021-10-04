@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 358113bb5f4e4f146b1cc0bcfa7468b7
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Later_That_Night_Pt_3-OSPT3-0
+  - Later_That_Night_Pt_3-OSPT3-1
+  - Later_That_Night_Pt_3-OSPT3-2
+  - Later_That_Night_Pt_3-OSPT3-3
+  - Later_That_Night_Pt_3-OSPT3-4
+  - Later_That_Night_Pt_3-OSPT3-5
+  - Later_That_Night_Pt_3-OSPT3-6
+  - Later_That_Night_Pt_3-OSPT3-7
+  - Later_That_Night_Pt_3-OSPT3-8
+  - Later_That_Night_Pt_3-OSPT3-9
+  - Later_That_Night_Pt_3-OSPT3-10
+  - Later_That_Night_Pt_3-OSPT3-11
+  - Later_That_Night_Pt_3-OSPT3-12
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: "Error on line 62 at position 3:\nno viable alternative
+    at input '<<endif'\r\n<<endif>>\r\n  ^^^^^"
+  baseLanguage: {fileID: 7128917941130120860, guid: 358113bb5f4e4f146b1cc0bcfa7468b7, type: 3}
+  localizations: []

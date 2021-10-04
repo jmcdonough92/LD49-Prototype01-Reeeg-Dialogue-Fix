@@ -1,0 +1,34 @@
+title: GMLA
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    The vaulting windows and sunlit halls of the Merchants Guild are a far cry more hospitable than the other factions. Smiling workers wave you in, bustling past as they continue about their day. 
+    After a bit of wandering, you are told to find "Miss Turnia" the Acquisitions Manager for the guild. 
+    A search with that name quickly finds you deposited in a cozy office, full of poofy chairs and a lace covered tea-table.
+<<show Turnia>>
+    Miss Turnia: Well hello little cloud puffs! What can I help you with today?
+<<hide Turnia>>
+<<show KaitNeutral>>
+    Kait: We’re looking for Miss Turnia? The front desk said she should approve our application before they could approve us as suppliers.
+<<hide KaitNeutral>> 
+<<show Turnia>>
+    Miss Turnia: You found her sure enough, sweet thing. Are you hungry? Your cheeks look sunken.
+<<hide Turnia>>
+<<show KaitNeutral>>
+    Kait: No, th-
+<<hide KaitNeutral>>
+<<show CauliHappy>>
+    Cauli: I’m hungry. Do you have any food?
+<<hide CauliHappy>>
+<<show KaitAngry>>
+    Kait: Cauli!
+<<hide KaitAngry>>
+<<show Turnia>>
+    Miss Turnia: Not to worry. We can have a quick bite while we go over your paperwork.
+<<hide Turnia>>
+    Several baked goods and an iron-clad contract later, you find yourself heading back to your ship with a bundle of food and only one pinched cheek, 
+    but all was worth it in the pursuit of free snacks.
+
+===

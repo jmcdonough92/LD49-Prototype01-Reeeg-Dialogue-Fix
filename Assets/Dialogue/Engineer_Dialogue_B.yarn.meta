@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: c0a7e84da55164e40872b449b66bba06
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Engineer_Dialogue_B-ELB-0
+  - Engineer_Dialogue_B-ELB-1
+  - Engineer_Dialogue_B-ELB-2
+  - Engineer_Dialogue_B-ELB-3
+  - Engineer_Dialogue_B-ELB-4
+  - Engineer_Dialogue_B-ELB-5
+  - Engineer_Dialogue_B-ELB-6
+  - Engineer_Dialogue_B-ELB-7
+  - Engineer_Dialogue_B-ELB-8
+  - Engineer_Dialogue_B-ELB-9
+  - Engineer_Dialogue_B-ELB-10
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: c0a7e84da55164e40872b449b66bba06, type: 3}
+  localizations: []

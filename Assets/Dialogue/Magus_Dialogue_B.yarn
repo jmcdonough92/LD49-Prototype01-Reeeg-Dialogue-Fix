@@ -1,0 +1,40 @@
+title: MMLB
+tags: 
+colorID: 0
+position: 404,-161
+---
+	<<show CauliNeutral>>
+	Cauli: We have a delivery for you? 
+    <<hide CauliNeutral>>
+	<<show Merida>>
+	Merida DeBouch: .... 
+	<<hide Merida>>
+    The woman's eyes are narrowed, focused on the quickly rotating rings within her hands. 
+	<<show KaitNeutral>>
+	Kait: So there's the matter of payment…
+    <<hide KaitNeutral>>
+	<<show Merida>>
+	Merida DeBouch: Correct. Payment.
+    The russet haired scholar does not move.
+    <<hide Merida>>
+	<<show CauliHappy>>
+	Cauli: What's the spinny-doo? 
+    <<hide CauliHappy>>
+	<<show KaitSurprised>>
+	Kait: Cauli don't touch-
+	<<hide KaitSurprised>>
+    You emit a small shrieking of surprise.
+	<<show CauliSurprised>>
+	Cauli: My hand went through! 
+    <<hide CauliSurprised>>
+	<<show Merida>>
+	Merida DeBouch: Yours were never meant to touch the Ephemera child. These are things that have sung songs older than your ancestors, 
+    whose echoes shape futures that will exist far after you are dust. 
+    <<hide Merida>>
+	<<show GioSurprised>>
+	Gio: ….a bit small for all that, aren't they? 
+    <<hide GioSurprised>>
+	<<show Merida>>
+	Merida DeBouch: ....Your payment is on the table by the door.  
+	<<hide Merida>>
+===

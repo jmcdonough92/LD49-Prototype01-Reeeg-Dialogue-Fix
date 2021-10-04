@@ -1,0 +1,32 @@
+title: GLA
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    In front of you stands an impeccably dressed man, serious expression 
+    cut through by the glinting lens of a monocle. 
+    Judging by the hovering secretaries and tightly gripped folder pinned 
+    beneath his arm, this man is the Overseer of Pyrra’s Hunger, 
+    and doesn’t have much time for you.
+	<<show Hostetler>>
+    Overseer Hostetler: Ah. Cirrans. 
+	
+    Surprising to see so many of you after the Turned Hunt, 
+    but I'm sure you'll be good for our stocks 
+    once you start contributing to the Starving Markets. 
+    It will be good to do business, I'm sure.
+	<<hide Hostetler>>
+	<<show CauliNeutral>>
+    Cauli: So you'll buy all this junk? 
+    <<hide CauliNeutral>>
+	<<show Hostetler>>
+	Overseer Hostetler: At a reasonable price. 
+    Ensure that it remains that way and this will be a profitable relationship. 
+    Good day.
+	<<hide Hostetler>>
+	
+    With a curt nod and several long strides, 
+    the man disappears down the corridor, 
+    leaving a flustered assistant to finalize the paperwork.
+===	

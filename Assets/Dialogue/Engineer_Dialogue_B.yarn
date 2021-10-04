@@ -1,0 +1,38 @@
+title: ELB
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+<<show Nerg>>
+    Nerg: You are back, scrape-children! I see your vessel is still a mess.
+<<hide Nerg>>
+<<show CauliNeutral>>
+    Cauli: Good to see you too, old man. We have a shipment for you.
+<<hide CauliNeutral>>
+<<show Nerg>>
+    Nerg: And a still gouged sky-sailer. Didn't your parents ever teach you to take care for your vessels?
+<<hide Nerg>>
+<<show GioAngry>>
+    Gio: I'll make sure to ask them about it when I dig their corpses out of the creature that ate them.
+<<hide GioAngry>>
+<<show Nerg>>
+    Nerg: Ah.
+<<hide Nerg>>
+    A momentary silence falls as the older blacksmith shifts his weight. Finally he gestures towards the door.
+<<show Nerg>>
+    Nerg: Well you know where to leave things, Cloud-People. Be on your way.
+<<hide Nerg>>
+<<show KaitAngry>>
+    Kait: Gio!
+<<hide KaitAngry>>
+<<show GioAngry>>
+    Gio: What? If he makes insensitive remarks, I'll give him insensitive answers.
+<<hide GioAngry>>
+<<show CauliSurprised>>
+    Cauli: I thought we were supposed to remain professional with clients.
+<<show CauliSurprised>>
+    Kait and Gio: We are.
+<<show KaitAngry>>
+
+===

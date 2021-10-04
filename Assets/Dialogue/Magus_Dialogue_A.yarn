@@ -1,0 +1,38 @@
+title: MMLA
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    The clustered, dusty towers of the Academy welcome you. Groups of students rushing past you in a blur as you wind your way through corridors stacked floor to ceiling with books. 
+    Several signs written in a flowing script lead you to a door marked "Resources Department" and you knock, turning the handle to let yourselves in. 
+    Within, a woman with bright red hair is hunched over her desk, a device made of many concentric rings all floating within one another and spinning within her hands. 
+    She speaks without lifting her head, tone lilting and distant as though in a dream.
+    <<show Merida>>
+	Merida DeBouch: Among the last of their kind, a few lingering clouds float into my office. 
+    Not the day I had envisioned, but a welcome change nonetheless. How may I assist you, young ones?
+    <<hide Merida>>
+	<<show GioNeutral>>
+	Gio: We're looking to sell parts and we know the university used to buy. Would you be who we would talk to about that? 
+    <<hide GioNeutral>>
+	<<show Merida>>
+	Merida DeBouch: Acquisition is nearly as temporary as life, little Cumulonimbus. But seeing as you need currency with which to sustain that life, 
+    I suppose a pro-longed transaction would be in order.
+    <<hide Merida>>
+	<<show KaitSurprised>>
+	Kait: Thank you?
+    <<hide KaitSurprised>>
+	<<show Merida>>
+	Merida DeBouch: A transaction does not require gratitude, merely fulfillment. I am glad to have met you though, children of the clouds. 
+    You leave the way you came, perturbed silence echoing in your footsteps.
+    <<hide Merida>>
+	<<show CauliSurprised>>
+	Cauli: That was a good deal, right? 
+    <<hide CauliSurprised>>
+	<<show KaitSurprised>>
+	Kait: I think? How are we supposed to know? She wouldn't even look us in the eye!  She was so focused on that gadget…
+    <<hide KaitSurprised>>
+	<<show GioHappy>>
+	Gio: Well she didn't turn us into Rockleeches, so that's at least a partial success. 
+    <<hide GioHappy>>
+===

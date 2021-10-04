@@ -1,0 +1,37 @@
+title: OSA
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    It’s your first day truly hunting, and your siblings have deigned that someone must fly the ship. Of course that someone is you, the youngest and most easily cajoled. 
+    To you falls the mission of keeping everyone alive avoiding obstacles whilst your family takes down monstrosities on the upper decks. 
+    A deep breath or three help to make you feel ready as you look out into a field of floating debris and obstacles, through which distant shadows swim and twine.
+<<show KaitNeutral>>
+    Kait: Take the controls in your hands. The lever will guide your speed, and that stick there decides direction.
+<<hide KaitNeutral>>
+<<show GioHappy>>
+    Gio: She knows this already. You've repeated your lecture over a million times. 
+<<hide GioHappy>>
+<<show CauliSad>>
+    Cauli: Can I go?
+<<hide CauliSad>>
+    Kait pinches her mouth shut, looking away.
+<<show GioHappy>>
+    Gio: Eyes to the sky, Cauli-Flower. There's nothing quite like hunting the void.
+<<hide GioHappy>>
+<<show KaitSad>>
+    Kait: Let us know when you've marked your first prey.
+<<hide KaitSad>>
+<<show GioHappy>>
+    Gio: Don't forget that you get to repair all the scrapes you cause!
+<<hide GioHappy>>
+<<show KaitAngry>>
+    Kait: Gio. Stop. Cauli, just avoid the scrap meteors and you'll do great.
+<<hide KaitAngry>>
+    With that quick remark, your siblings exit. The joking grin on your brother's face remains shamelessly bright as he is dragged from the room by your sister’s iron grip. 
+    Heart quietly pounding in your chest, your hands return to the controls. 
+    You’ve practiced over and over, spent plenty of lazy afternoons dreaming about what this would be like. 
+    Now you’re here, the hunt is on, and the Starving Markets won’t feed themselves.
+    Controls: Use WASD or Arrow keys to move the ship. Press Space to have your siblings fire at a target.
+===

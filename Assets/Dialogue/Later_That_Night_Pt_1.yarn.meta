@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 0de968b0bafe3c44db1b7b105a3a81a8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Opening_Dialogue_B-OSB-0
+  - Opening_Dialogue_B-OSB-1
+  - Opening_Dialogue_B-OSB-2
+  - Opening_Dialogue_B-OSB-3
+  - Opening_Dialogue_B-OSB-4
+  - Opening_Dialogue_B-OSB-5
+  - Opening_Dialogue_B-OSB-6
+  - Opening_Dialogue_B-OSB-7
+  - Opening_Dialogue_B-OSB-8
+  - Opening_Dialogue_B-OSB-9
+  - Opening_Dialogue_B-OSB-10
+  - Opening_Dialogue_B-OSB-11
+  - Opening_Dialogue_B-OSB-12
+  - Opening_Dialogue_B-OSB-13
+  - Opening_Dialogue_B-OSB-14
+  - Opening_Dialogue_B-OSB-15
+  - Opening_Dialogue_B-OSB-16
+  - Opening_Dialogue_B-OSB-17
+  - Opening_Dialogue_B-OSB-18
+  - Opening_Dialogue_B-OSB-19
+  - Opening_Dialogue_B-OSB-20
+  - Opening_Dialogue_B-OSB-21
+  - Opening_Dialogue_B-OSB-22
+  - Opening_Dialogue_B-OSB-23
+  - Opening_Dialogue_B-OSB-24
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 0de968b0bafe3c44db1b7b105a3a81a8, type: 3}
+  localizations: []

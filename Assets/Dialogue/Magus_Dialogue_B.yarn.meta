@@ -1,0 +1,31 @@
+fileFormatVersion: 2
+guid: 450a5ab5cf2558040904519c4cd00d2c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Magus_Dialogue_B-MMLB-0
+  - Magus_Dialogue_B-MMLB-1
+  - Magus_Dialogue_B-MMLB-2
+  - Magus_Dialogue_B-MMLB-3
+  - Magus_Dialogue_B-MMLB-4
+  - Magus_Dialogue_B-MMLB-5
+  - Magus_Dialogue_B-MMLB-6
+  - Magus_Dialogue_B-MMLB-7
+  - Magus_Dialogue_B-MMLB-8
+  - Magus_Dialogue_B-MMLB-9
+  - Magus_Dialogue_B-MMLB-10
+  - Magus_Dialogue_B-MMLB-11
+  - Magus_Dialogue_B-MMLB-12
+  - Magus_Dialogue_B-MMLB-13
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: 450a5ab5cf2558040904519c4cd00d2c, type: 3}
+  localizations: []

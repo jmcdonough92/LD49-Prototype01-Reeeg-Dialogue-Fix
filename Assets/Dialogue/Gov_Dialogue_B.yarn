@@ -1,0 +1,22 @@
+title: GLB
+tags: 
+colorID: 0
+position: 404,-161
+---
+    <<show Hostetler>>
+	Overseer Hostetler: You return, Cirrans. 
+    The other guilds have been increasingly active since your last visit. 
+    The words of fresh monster stock is enough to whet even the most carefully curated appetites. 
+    What do you have today?
+	<<hide Hostetler>>
+	<<show CauliHappy>>
+    Cauli: Lumps and bits scraped out of the sky.
+	<<hide CauliHappy>>
+    <<show KaitNeutral>>
+    Kait: She means more void creature parts to fuel the city's engines, Sir. 
+    <<hide KaitNeutral>>
+	After a brief pause, the stately man nods.
+    <<show Hostetler>>
+	Overseer Hostetler: Quite good. Move along.
+	<<hide Hostetler>>
+===

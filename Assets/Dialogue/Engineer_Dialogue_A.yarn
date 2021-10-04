@@ -1,0 +1,29 @@
+title: ELA
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+    When you arrive in the spacious workshop of the Divine Engineers, you follow the directions from a few harried workers 
+    and find yourself climbing down the steps into a spacious, steam filled workshop. 
+    Near the bottom of the stairs, a grizzled old man wrenches a tool with vicious energy as he rotates a bolt protruding from an engine block.
+<<show Nerg>>
+    Nerg: What do you want? This is not a place for small feet to be scuttle-peeking.
+<<hide Nerg>>
+<<show CauliNeutral>>
+    Cauli: We're here to offer monster parts for sale. 
+<<hide CauliNeutral>>
+<<show Nerg>>
+    Nerg: You're the owners of that ship-boat docked out there? The one scraped to tarnation's embrace and back?
+<<hide Nerg>>
+<<show KaitSad>>
+    Kait: Erm, yes. A hazard of the occupation?
+<<hide KaitSad>>
+    The man snorts.
+<<show Nerg>>
+    Nerg: If you say so, bluster-child. Leave your details at the front desk and I'll buy your parts. 
+    See to it that you take better care of your fortress-vessel though.
+<<hide Nerg>>
+
+
+===

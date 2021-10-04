@@ -1,0 +1,29 @@
+fileFormatVersion: 2
+guid: e4f62bfef3eac6a47b1462c978e545b4
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 94073015eacc34c1d8fc6786e43d60ca, type: 3}
+  baseLanguageID: en-US
+  stringIDs:
+  - Merchant_Dialogue_A-GMLA-0
+  - Merchant_Dialogue_A-GMLA-1
+  - Merchant_Dialogue_A-GMLA-2
+  - Merchant_Dialogue_A-GMLA-3
+  - Merchant_Dialogue_A-GMLA-4
+  - Merchant_Dialogue_A-GMLA-5
+  - Merchant_Dialogue_A-GMLA-6
+  - Merchant_Dialogue_A-GMLA-7
+  - Merchant_Dialogue_A-GMLA-8
+  - Merchant_Dialogue_A-GMLA-9
+  - Merchant_Dialogue_A-GMLA-10
+  - Merchant_Dialogue_A-GMLA-11
+  compilationStatus: 1
+  isSuccesfullyCompiled: 1
+  compilationErrorMessage: 
+  baseLanguage: {fileID: 7128917941130120860, guid: e4f62bfef3eac6a47b1462c978e545b4, type: 3}
+  localizations: []

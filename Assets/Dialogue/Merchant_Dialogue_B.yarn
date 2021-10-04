@@ -1,0 +1,18 @@
+title: GMLB
+tags: 
+colorID: 0
+position: 404,-161
+---
+
+<<show Turnia>>
+    Miss Turnia: I see the sweet cumulus crumbles came back for a visit! How are you doing, dears? Can I get you something to eat while you wait for your payment?
+<<hide Turnia>>
+<<show CauliSurprised>>
+    You close your mouth and shake your head, unable to keep your eyes from darting to a plate of food near the door.
+<<hide CauliSurprised>>
+<<show Turnia>>
+    Miss Turnia: Well enough darlings. I’ll leave a tray of honey cakes for you if you change your minds, but be safe out there flying in the Void.
+<<hide Turnia>>
+    The cakes do not last long after she leaves. After all it will be another long hunt before you get to taste sweets again. 
+
+===
